@@ -1,0 +1,15 @@
+[package]
+name = "aes256_ctr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+rustc-serialize = "0.3.25"
+
+[lib]
+name = "aes256ctrbench"
+
+[[bin]]
+name = "aes256ctrbench"
+path = "src/main/main.rs"
